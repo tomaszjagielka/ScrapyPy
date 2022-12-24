@@ -1,0 +1,1 @@
+const elements = document.getElementsByClassName("name"); const items = []; for (const element of elements) { items.push(element.innerHTML); } console.log(items.join(separator="\n"));
